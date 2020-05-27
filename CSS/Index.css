@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400+700);
+
+
+.btn {
+    color: black;
+    background: rgb(204, 204, 204);
+    /*!padding-left: 16px ;*/
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#navbarToggleExternalContent>ul {
+
+    text-decoration: none;
+
+}
+
+
+
+.menu_pg {
+    margin-right: 15px;
+    padding: 2px;
+}
+
+#accueil {
+    padding-left: 16px
+}
+
+#project {
+    padding-left: 22px
+}
+
+
+
+/*! container */
+
+.picture_profile {
+    display: inline-block;
+}
+
+.bio_profile {
+    width: 30%;
+    display: inline-block;
+}
+
+
+
+.title_section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+body {
+    background: #30303a;
+    font-family: Roboto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*! 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .picture_profile {
+        
+        margin: auto;
+        height: 350px;
+       width: 350px;
+    }
+    
+    
+    
+
+    .bio_profile {        
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .picture_profile {
+        
+        margin: auto;
+        height: 350px;
+       width: 350px;
+    }
+    
+    
+    
+
+    .bio_profile {        
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .picture_profile {
+        
+        margin: auto;
+        height: 350px;
+    }
+
+    .bio_profile {
+        width: 50%;
+        display: inline-block;
+        margin: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+    #navbarToggleExternalContent>ul {
+        width: 55px;
+        margin-left: 500px;
+        text-decoration: none;
+
+
+    }
+}
+
+
+*/

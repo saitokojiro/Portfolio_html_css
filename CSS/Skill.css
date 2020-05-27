@@ -1,0 +1,145 @@
+
+
+/* Jobsearch Progressbar */
+.skill_bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.skill_bar .bar-container {
+    position: relative;
+    height: 6px;
+    border-radius: 0px 10px 10px 0px;
+    float: right;
+    width: 60%;
+    margin-top: 3px;
+}
+
+.skill_bar .bar-container:before,
+.skill_bar .bar-container:after,
+.skill_bar .backgroundBar:before,
+.skill_bar .backgroundBar:after {
+    content: '';
+    position: absolute;
+    left: 20%;
+    top: 0px;
+    width: 5px;
+    height: 12px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.skill_bar .bar-container:after {
+    left: 40%;
+}
+
+.skill_bar .backgroundBar:before {
+    left: 60%;
+}
+
+.skill_bar .backgroundBar:after {
+    left: 80%;
+}
+
+.skill_bar_wrap {
+    float: left;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.skill_bar .backgroundBar {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.skill_bar .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.skill_bar .title {
+    float: left;
+    font-size: 12px;
+    color: #333333;
+    line-height: 1;
+}
+
+.skill_bar_subtitle {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+    margin: 14px 0px 38px 0px;
+    line-height: 1;
+}
+
+.candidate_portfolio {
+    margin-bottom: 20px;
+}
+
+.careerfy-three-column-row {
+    margin: 0px -5px;
+}
+
+.careerfy-three-column {
+    float: left;
+    width: 33.333%;
+    padding: 0px 5px;
+}
+
+.careerfy-candidate-dasboard {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+
+/*! Animation */
+.bar {
+    -webkit-animation: bar 1s cubic-bezier(0, 0.460, 0.450, 0.940) both;
+    animation: bar 1s cubic-bezier(0, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes bar {
+    0% {
+        -webkit-transform: scaleX(0.1);
+        transform: scaleX(0.1);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+}
+
+@keyframes bar {
+    0% {
+        -webkit-transform: scaleX(0.1);
+        transform: scaleX(0.1);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+}

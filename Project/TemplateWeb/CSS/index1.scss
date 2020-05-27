@@ -1,0 +1,157 @@
+
+
+$color : red;
+
+body{
+  
+  margin-right: 20%;
+  margin-left: 20%;
+  background-image: url(https://picsum.photos/2560/1440 );
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.7em ;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+header >div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+header > div>h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: $color;
+}
+header > div>h5{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  margin-top: -20px
+}
+
+.container {
+  
+  box-shadow: 1px 1px 100px 1px black;
+  
+}
+
+.block-one {}
+.block-one-img >img {
+  width: 100%;
+  height: auto;
+}
+.block-one-title {
+  margin-top:-8px;
+  background: white;
+  padding: 1px;
+  text-align: center}
+.block-one-text {
+  
+  text-align: left;
+  padding: 50px;
+  background-color: #f3f3f3;
+}
+
+.block-two {
+  border: 54px solid rgb(39, 39, 39);
+  
+}
+.block-two-container{
+   margin-bottom: -4px;
+}
+.block-two-title {
+  text-align: center;
+  background: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.block-grid-img {
+  
+  display: grid;
+  //grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(auto-fill, minmax(23em, 2fr));
+  grid-gap: 0px;
+  grid-auto-flow: rows;
+  grid-auto-rows: auto;
+}
+
+.block-two-img >.full-img>img{
+  margin-bottom: -0.6em;
+  width: 100%;
+  height: auto;
+  
+}
+.block-two-img>.full-img{
+  max-height: 100%;
+}
+
+.block-three {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(auto-fill, minmax(26em, 2fr));
+  grid-gap: 0px;
+  grid-auto-flow: rows;
+  grid-auto-rows: auto;
+}
+
+.block-three-img>.full-img>img{  
+  width: 100%;
+  height: auto;  
+  margin-bottom: -0.52em;
+}
+.block-three-img>.full-img{
+  max-height: 100%;
+}
+
+.block-three-txt{
+  background-color: rgb(255,255,255);
+  width: 100%;
+}
+
+.block-three-txt>div{ 
+  width: 60%;
+  margin-top: 35%;
+  margin-bottom: 35%;
+  margin-left: 5%;
+  padding-right: 0%;
+  text-align: left;
+  
+}
+
+.block-three-txt:nth-child(3){ 
+  width: 100%;
+  color: white;
+  background-color: rgb(27, 27, 27);  
+  width: 100%;  
+}
+
+.block-three-txt:nth-child(3)>div{ 
+  margin-left:32% ;
+  margin-right: 100%;
+  width: 60%;
+  margin-top: 40%; 
+  text-align: right;
+  padding-right: 0%;
+    
+}
+
+footer{
+  color: white;
+  text-align: center;
+}
+
+.up_bar {
+  border-top: 1px black solid;
+  margin: 0% 43% 0% 43% 
+}
+
+.up_bar2 {
+  border-top: 1px white solid;
+  margin: 0% 43% 0% 43% 
+}
