@@ -1,7 +1,6 @@
 <?php
 try {
-    $bdd = new PDO('mysql:host=localhost;dbname=id4920175_test;charset=utf8','id4920175_test','q%oqtX^yp^F3w&ikseh(');
-}
-catch (Exception $e){
-    die('error'. $e->getMessage());
+    $bdd = new PDO('mysql:host=localhost;dbname=forum_lost;charset=utf8', 'root', '');
+} catch (Exception $e) {
+    die('error' . $e->getMessage());
 }
